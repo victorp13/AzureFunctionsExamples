@@ -1,0 +1,17 @@
+{
+  "bindings": [
+    {
+      "path": "images/{name}",
+      "name": "inputStream",
+      "type": "blobTrigger",
+      "direction": "in"
+    },
+    {
+      "path": "thumbs/{name}",
+      "name": "outputStream",
+      "type": "blob",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
