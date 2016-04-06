@@ -1,11 +1,16 @@
 # Azure Functions Examples
 
-This repository contains Azure Functions sample code. For starters: A blob trigger that unzips a ZIP file upon it being saved.
+This repository contains Azure Functions sample code. They can easily be loaded by setting up Continuous Integration to your own source code repository. For each example the relevant connections will need to be set up manually in the "Integrate" tab of the function app.
 
-## Blob Unzipper
-This blob trigger will perform an in-memory root level extraction of a ZIP archive. Words of caution: 
-* Memory may be a constraint
-* This example code does not traverse folders
+## BlobUnzipper
+This blob trigger will perform an in-memory root level extraction of a ZIP archive.
+
+* Increase Memory Size in Function App Settings for larger ZIP files
+* This example code only extracts the root folder of the ZIP file
 * Destination is set to the same container that triggers the code
 
-Still, a nifty piece of code that removes complexity when uploading files.
+## ThumbGenerator
+This blob trigger will perform an image resize using the NuGet package ImageResizer.
+
+* It demonstrates directly interacting with an input stream and an output stream
+* The project.json file is required to load the NuGet package

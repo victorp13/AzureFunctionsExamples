@@ -1,1 +1,11 @@
-{"bindings":[{"path":"test/{blobname}.zip","connection":"vpmystore_STORAGE","name":"myBlob","type":"blobTrigger","direction":"in"}],"disabled":false}
+{
+  "bindings": [
+    {
+      "path": "test/{blobname}.zip",
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in"
+    }
+  ],
+  "disabled": false
+}
