@@ -1,0 +1,2 @@
+## HelloWorld
+This HTTP trigger shows examples of how to access the requested uri, headers and querystring. It checks for the existence of a 'name' query string parameter and, if present, will output it in the response.

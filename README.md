@@ -2,6 +2,9 @@
 
 This repository contains Azure Functions sample code. They can easily be loaded by setting up Continuous Integration to your own source code repository. For each example the relevant connections will need to be set up manually in the "Integrate" tab of the function app.
 
+## HelloWorld
+This HTTP trigger shows examples of how to access the requested uri, headers and querystring. It checks for the existence of a 'name' query string parameter and, if present, will output it in the response.
+
 ## BlobUnzipper
 This blob trigger will perform an in-memory root level extraction of a ZIP archive.
 
