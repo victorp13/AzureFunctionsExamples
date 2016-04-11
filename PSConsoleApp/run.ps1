@@ -1,1 +1,1 @@
-.\AzureFunctionsConsole.exe
+.\ConsoleApp.exe

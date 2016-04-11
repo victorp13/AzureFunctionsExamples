@@ -17,3 +17,21 @@ This blob trigger will perform an image resize using the NuGet package ImageResi
 
 * It demonstrates directly interacting with an input stream and an output stream
 * The project.json file is required to load the NuGet package
+
+## PSConsoleApp
+This timer trigger every minute loads a PowerShell script that runs an .exe file. This executable is placed with the function; a simple console app that just posts a line to the log. Code below:
+
+```c#
+using System;
+
+namespace ConsoleApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
+```
