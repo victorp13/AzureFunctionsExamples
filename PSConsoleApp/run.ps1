@@ -1,0 +1,1 @@
+.\AzureFunctionsConsole.exe
