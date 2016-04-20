@@ -1,0 +1,11 @@
+{
+    "bindings": [
+        {
+            "queueName": "test",
+            "name": "myQueueItem",
+            "type": "queueTrigger",
+            "direction": "in"
+        }
+    ],
+    "disabled": false
+}
